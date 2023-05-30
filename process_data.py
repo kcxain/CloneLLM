@@ -11,7 +11,7 @@ def write_json(l, file):
 
 
 def check_id(s, qq_id):
-    return s in qq_id
+    return (s in qq_id) or (qq_id in s)
 
 
 # 将数据输出为标准数据集的格式
